@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Terminal UI</title>
+  <link rel="stylesheet" type="text/css" href="terminal.css">
+</head>
+<body>
+  <div class="terminal-wrapper">
+    <div class="terminal__topbar">
+      <div class="terminal__heading">
+        Terminal
+      </div>
+    </div>
+    <div class="terminal-body">
+      <div class="command-prompt" id="command-prompt">
+        <span class="prompt__text text-red">command <span class="text-blue">$</span></span>
+        <div class="command-input-wrapper">
+          <input type="text" name="command" class="command-input" id="command-input">
+          <span class="current-cursor"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="terminal.js"></script>
+  <script type="text/javascript" src="client.js"></script>
+</body>
+</html>
