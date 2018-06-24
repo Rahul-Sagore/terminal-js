@@ -5,7 +5,21 @@ Demo in the Chrome Browser.
 
 ![TerminalJS Demo](https://raw.githubusercontent.com/Rahul-Sagore/terminal-js/master/assets/media/terminalJS-demo.gif)
 
-## How to use
+## Documentation
+
+### Installation
+
+Add terminal.js and terminal.css in your html:
+
+```html
+<head>
+ <link rel="stylesheet" type="text/css" href="terminal.css">
+</head>
+<body>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+ <script type="text/javascript" src="terminal.js"></script>
+</body>
+```
 
 ### Adding new command
 
@@ -20,3 +34,4 @@ TODO:
 * Previous commands on Up/Down Arrow.
 * Fix Continuous blinking cursor.
 * UI Fixes, correct color code.
+* Remove jQuery dependency, if possible.
