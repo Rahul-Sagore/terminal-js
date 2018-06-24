@@ -29,7 +29,7 @@ User `.add()` method to add new commands. First argument is your command name an
  commandJS.add('designation', "Frontend Engineer");
 ```
 
-###TODO:
+### TODO:
 * Allow printing links.
 * Previous commands on Up/Down Arrow.
 * Fix Continuous blinking cursor.
